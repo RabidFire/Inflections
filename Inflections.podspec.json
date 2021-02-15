@@ -14,9 +14,11 @@
     "git": "https://github.com/adamelliot/Inflections.git",
     "tag": "1.0.0"
   },
-  "source_files": [ "NSString+Inflections.{h,m}" ],
+  "source_files": "NSString+Inflections.{h,m}",
   "dependencies": {
-    "RegexKitLite-NoWarning": []
+    "RegexKitLite": [
+
+    ]
   },
   "requires_arc": false
 }
